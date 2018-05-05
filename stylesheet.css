@@ -1,0 +1,12 @@
+body {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+img.main {
+  display: block;
+  margin: 0 auto;
+}
