@@ -1,12 +1,31 @@
+ {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
 body {
   background: black;
   color: white;
   font-family: sans-serif;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin:0;
+  padding:0;
+  background:url("./images/main.jpg") no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 img.main {
   display: block;
   margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+font-style: italic;
+}
+
+div.main-container {
+  padding: 1em;
 }
