@@ -11,9 +11,40 @@ body {
   background-size: cover;
 }
 
+span {
+  background-color:rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  padding: 0.5em;
+}
+
+span:hover {
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  font-style: italic;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
+div {
+  margin-bottom: 1em;
+}
+
 img.main {
   display: block;
   margin: 0 auto;
+}
+a {
+  color: #b8ccd1;
+}
+
+a:hover {
+  color: #bababb;
+}
+
+a:active {
+  color: #5c5d58;
 }
 
 h1 {
