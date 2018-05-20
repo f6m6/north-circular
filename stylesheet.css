@@ -12,13 +12,13 @@ body {
 }
 
 span {
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.4);
   border-radius: 100px;
   padding: 0.5em;
 }
 
 span:hover {
-  background-color:rgba(0, 0, 0, 0.4);
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 h2 {
@@ -37,10 +37,14 @@ img.main {
 }
 a {
   color: #b8ccd1;
+  background-color:rgba(0, 0, 0, 0.4);
+  border-radius: 100px;
+  padding: 0.5em;
 }
 
 a:hover {
-  color: #bababb;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 a:active {
